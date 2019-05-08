@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  gae-py37-quickstart:
+    build:
+      context: gae-py37-quickstart
+    container_name: gae-py37-quickstart
+    ports:
+      - "50032:22"
+    environment:
+      - TZ=Asiz/Tokyo
