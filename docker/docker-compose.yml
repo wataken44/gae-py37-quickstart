@@ -6,5 +6,6 @@ services:
     container_name: gae-py37-quickstart
     ports:
       - "50032:22"
+      - "50040:8080"
     environment:
       - TZ=Asiz/Tokyo
